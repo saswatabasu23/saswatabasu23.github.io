@@ -1,0 +1,60 @@
+nav{
+    margin: 10px 50px 10px 10px;
+    padding: 10px;
+    background: black;
+    
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li{
+    display:inline-block;
+    margin: 0.75em;
+    padding: 0.75em;
+    background: yellow;
+    font-size: 15px;
+}
+header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    text-decoration: underline;
+    text-align: center;
+}
+section.index{    
+    font-size: 25px;
+}
+section.market{
+    display:flex;
+    flex-direction: inline-block;
+}
+section.market div{
+    display:flex;
+    flex-direction: column;
+}
+section.market div p{
+    width: 1000px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+img.market{
+    position: absolute;
+    top:750px;
+    left:250px;
+}
+section.ind{
+    display: flex;
+    flex-direction: inline-block;
+}
+section.ind div.con{
+    width: 1000px;
+    height: 100px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section.ind div>img{
+    height: 350px;
+    width: 700px;
+}
